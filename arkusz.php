@@ -9,7 +9,7 @@ $client->setAccessType('offline');
 $client->setAuthConfig(__DIR__ . '/auth.json');
 $service = new Google_Service_Sheets($client);
 
-$spreadsheetId = '1PUXrrgivl1p9v-CW7cPD9bWweWF9hX3EYQM-MEhNYXs';
+$spreadsheetId = '###';
 
 $range = "Arkusz1";
 
